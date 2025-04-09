@@ -7,10 +7,7 @@ export default function Home() {
                 <h2 className="font-montserrat text-secondary text-lg sm:text-xl">Where Every Step Tells a Story.</h2>
                 <h1 className="font-playfair text-secondary text-5xl sm:text-7xl">THE SOLE OF MARIKINA</h1>
                 <h2 className="font-montserrat text-secondary text-lg sm:text-xl">Experience the tradition, artistry, and passion behind shoe festival.</h2>
-                <button className="bg-quartery rounded-2xl text-2xl sm:text-4xl p-2 self-center transition-all duration-300 ease-in-out transform hover:scale-105 hover:bg-blue-500 hover:text-white hover:shadow-lg">
-                    EXPLORE THE FESTIVAL
-                </button>
-
+                <button className="bg-quartery rounded-2xl text-2xl sm:text-4xl p-2 self-center">EXPLORE THE FESTIVAL</button>
             </div>
         </div>
     )
