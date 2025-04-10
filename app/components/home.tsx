@@ -1,3 +1,4 @@
+"use client";
 export default function Home() {
     return (
         <div id="home-section" className="flex flex-col justify-center h-screen">
@@ -7,11 +8,7 @@ export default function Home() {
                 <h2 className="font-montserrat text-secondary text-lg sm:text-xl">Where Every Step Tells a Story.</h2>
                 <h1 className="font-playfair text-secondary text-5xl sm:text-7xl">THE SOLE OF MARIKINA</h1>
                 <h2 className="font-montserrat text-secondary text-lg sm:text-xl">Experience the tradition, artistry, and passion behind shoe festival.</h2>
-<<<<<<< HEAD
-                <button className="bg-quartery border-secondary rounded-2xl text-2xl hover:bg-transparent transition-all sm:text-4xl p-2 self-center">EXPLORE THE FESTIVAL</button>
-=======
-                <button className="bg-quartery rounded-2xl text-2xl sm:text-4xl p-2 self-center">EXPLORE THE FESTIVAL</button>
->>>>>>> 8ba3b3c2330e74a2a35afcef1ddc6dafe2210113
+                <button className="bg-quartery rounded-2xl text-2xl hover:bg-transparent transition-all sm:text-4xl p-2 self-center">EXPLORE THE FESTIVAL</button>
             </div>
         </div>
     )
