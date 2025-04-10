@@ -19,7 +19,7 @@ export default {
         secondary: "#F3F3E6",
         tertuary: "#EECD5C",
         quartery: "#D2A63C",
-        quinary: "BB8525", 
+        quinary: "#BB8525", 
       },
     },
   },
