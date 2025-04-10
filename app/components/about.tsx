@@ -1,3 +1,4 @@
+"use client";
 import LeatherShoe from "./leather-shoe";
 import Heel from "./heel"
 import { useMediaQuery } from "react-responsive";

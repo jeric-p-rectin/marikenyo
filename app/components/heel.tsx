@@ -1,5 +1,6 @@
+"use client";
 import { Canvas } from '@react-three/fiber';
-import { PerspectiveCamera, OrbitControls, Bounds, useGLTF } from '@react-three/drei';
+import { PerspectiveCamera, OrbitControls, useGLTF } from '@react-three/drei';
 import { useMediaQuery } from 'react-responsive';
 
 function Model() {
