@@ -14,7 +14,7 @@ export default function App() {
   const isDesktop = useMediaQuery({ query: '(min-width: 640px)' }); // Check if the device is desktop
   
   return (
-    <Canvas style={{ width: '100%', height: '300px' }}>
+    <Canvas style={{ width: '100%', height: '300px', touchAction: 'pan-y' }}>
       <PerspectiveCamera makeDefault fov={isDesktop ? 8 : 10} position={[1.3, 1.8, 0.6]} />
       <ambientLight intensity={3} />
       <directionalLight position={[10, 10, 5]} intensity={2} castShadow />

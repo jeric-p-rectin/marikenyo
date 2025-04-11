@@ -2,6 +2,7 @@
 import Header from './components/header';
 import Home from './components/home';
 import About from './components/about';
+import Main from "./components/main";
 
 export default function Component() {
   return (
@@ -9,6 +10,7 @@ export default function Component() {
       <Header />
       <Home />
       <About />
+      <Main />
    </div>
   )
 }

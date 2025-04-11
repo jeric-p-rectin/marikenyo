@@ -36,7 +36,7 @@ export default function Header() {
 
     return (
         <>
-            <div className="flex z-20 flex-row fixed left-0 right-0 justify-between backdrop-blur-sm border-b-[1px] border-tertuary p-5">
+            <div className="flex flex-row z-20 fixed left-0 right-0 justify-between backdrop-blur-sm border-b-[1px] border-tertuary p-5">
                 <div className="flex flex-row gap-1">
                     <Image src={`/logo.png`} alt='logo.png' width={35} height={35} />
                     {"ARIKINA".split("").map((letter, index) => (
