@@ -39,7 +39,7 @@ export default function About() {
             { isDesktop && <div className="flex flex-col gap-7 px-3">
                 <h1 className="font-playfair text-secondary text-3xl sm:text-5xl">A LEGECY OF EXCELLENCE</h1>
                 <p className="font-montserrat text-secondary text-md sm:text-xl">The Marikina Shoe Festival honors the city’s rich shoemaking legacy where tradition meets world-class craftsmanship.</p>
-                <button className="bg-quartery text-secondary hover:bg-[#d2cc3c] transition-all gap-11 rounded-2xl text-xl p-2 self-end">DISCOVER MORE</button>
+                <button onClick={() => scrollToSection("main-section")} className="bg-quartery text-secondary hover:bg-[#d2cc3c] transition-all gap-11 rounded-2xl text-xl p-2 self-end">DISCOVER MORE</button>
             </div> }
             <div className={isDesktop ? "border-l-[1px] border-tertuary" : "border-[1px] border-tertuary"}><Heel /></div>
             { !isDesktop && <button onClick={() => scrollToSection("main-section")} className="bg-quartery text-secondary hover:bg-[#d2cc3c] transition-all rounded-2xl text-xl mt-8 p-2 self-center">DISCOVER MORE</button> }
