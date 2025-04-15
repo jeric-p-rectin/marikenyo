@@ -83,8 +83,8 @@ export default function TeamAndCredits() {
                     <Carousel members={developmentTeam} />
                     <h2 className="font-montserrat text-xl sm:text-3xl font-medium text-secondary text-center">Image & Resource Credits</h2>
                     <ul className="font-montserrat text-secondary list-disc">
-                        <li>"Leather Shoe" - 3D model by assetfactory – Used under license from Sketchfab</li>
-                        <li>"Pointy Stiletto" - 3D model by hiirusama – Used under license from Sketchfab</li>
+                        <li>&quot;Leather Shoe&quot; - 3D model by assetfactory – Used under license from Sketchfab</li>
+                        <li>&quot;Pointy Stiletto&quot; - 3D model by hiirusama – Used under license from Sketchfab</li>
                     </ul>
                 </div>
             ) : (
@@ -122,8 +122,8 @@ export default function TeamAndCredits() {
                     </div>
                     <h2 className="font-montserrat text-xl sm:text-3xl font-medium text-secondary text-center">Image & Resource Credits</h2>
                     <ul className="font-montserrat text-secondary list-disc text-center mx-auto text-md sm:text-xl">
-                        <li>"Leather Shoe" - 3D model by assetfactory – Used under license from Sketchfab</li>
-                        <li>"Pointy Stiletto" - 3D model by hiirusama – Used under license from Sketchfab</li>
+                        <li>&quot;Leather Shoe&quot; - 3D model by assetfactory – Used under license from Sketchfab</li>
+                        <li>&quot;Pointy Stiletto&quot; - 3D model by hiirusama – Used under license from Sketchfab</li>
                     </ul>
                 </div>
             )}
