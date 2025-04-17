@@ -28,7 +28,7 @@ export default function Component() {
             { showGiantShoeContent && <ShoeEventCardContent 
                 title="GIANT SHOE OF MARIKINA" 
                 image="/shoe3.png" 
-                paragraph="The Giant Shoe of Marikina, located at Riverbanks Center in Barangka, Marikina City, is a world-famous attraction recognized by the Guinness World Records in 2002 as the largest pair of shoes globally. Measuring approximately 5.5 meters long, 2.25 meters wide, and 1.83 meters high—equivalent to a men’s US size 753—the shoe was crafted by skilled local shoemakers as a tribute to Marikina’s proud heritage as the Shoe Capital of the Philippines. It is displayed inside the Riverbanks Mall, alongside museums and other local attractions." 
+                paragraph="The Giant Shoe of Marikina, located at Riverbanks Center in Barangka, Marikina City, is a world-famous attraction recognized by the Guinness World Records in 2002 as the largest pair of shoes globally. Measuring approximately 5.5 meters long, 2.25 meters wide, and 1.83 meters high—equivalent to a men's US size 753—the shoe was crafted by skilled local shoemakers as a tribute to Marikina's proud heritage as the Shoe Capital of the Philippines. It is displayed inside the Riverbanks Mall, alongside museums and other local attractions." 
                 closeEventCardContent={() => setShowGiantShoeContent(false)} // Close the content (set to false)
             /> }
 
