@@ -64,7 +64,7 @@ export default function TeamAndCredits() {
             role: "Developer"
         },
         {
-            name: "jullian",
+            name: "Axel Dimalanta",
             picture: "/team-pictures/axel.jpg",
             role: "Developer"
         },
