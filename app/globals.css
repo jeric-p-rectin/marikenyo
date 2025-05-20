@@ -5,6 +5,11 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #1D1912;
+  --secondary: #F3F3E6;
+  --tertuary: #EECD5C;
+  --quartery: #D2A63C;
+  --quinary: #BB8525;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,4 +27,130 @@ body {
   /* color: var(--foreground); */
   background: #1D1912;
   /* font-family: Arial, Helvetica, sans-serif; */
+  background-image:
+    radial-gradient(circle at 25px 25px, rgba(238, 205, 92, 0.05) 2%, transparent 0%),
+    radial-gradient(circle at 75px 75px, rgba(238, 205, 92, 0.05) 2%, transparent 0%);
+  background-size: 100px 100px;
+}
+
+/* Add smooth transitions for all interactive elements */
+a, button, .transition-all {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Enhance text readability with subtle text shadow */
+h1, h2, h3, h4, h5, h6 {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Add subtle animation for hover effects */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.hover-pulse:hover {
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+/* Slide-in animation */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-slideIn {
+  animation: slideIn 0.6s ease-out forwards;
+}
+
+/* Shimmer effect for highlights */
+@keyframes shimmer {
+  0% {
+    background-position: -100% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.shimmer-effect {
+  background: linear-gradient(90deg,
+    rgba(238, 205, 92, 0) 0%,
+    rgba(238, 205, 92, 0.2) 50%,
+    rgba(238, 205, 92, 0) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 3s infinite;
+}
+
+/* Enhance scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1D1912;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D2A63C;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #EECD5C;
+}
+
+/* Glass effect for cards and containers */
+.glass-effect {
+  background: rgba(29, 25, 18, 0.7);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(238, 205, 92, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+/* Gradient text effect */
+.gradient-text {
+  background: linear-gradient(90deg, var(--tertuary), var(--quartery));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+/* Subtle hover glow effect */
+.hover-glow {
+  transition: all 0.3s ease;
+}
+
+.hover-glow:hover {
+  box-shadow: 0 0 15px rgba(238, 205, 92, 0.5);
 }

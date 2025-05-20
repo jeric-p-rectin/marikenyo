@@ -9,7 +9,7 @@ import Footer from "./components/footer";
 export default function Component() {
   return (
     <>
-    <div className='flex flex-col mx-10 bg-primary'>
+    <div className='flex flex-col mx-auto bg-primary'>
         <Header />
         <Home />
         <About />
