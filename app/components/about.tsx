@@ -56,7 +56,7 @@ export default function About() {
                     ABOUT THE MARIKINA SHOE FESTIVAL
                 </h1>
                 <p className="font-montserrat text-secondary text-md sm:text-xl leading-relaxed">
-                    The Marikina Shoe Festival is a tribute to the city's rich shoemaking heritage, showcasing the artistry and dedication of local craftsmen. As the Shoe Capital of the Philippines, Marikina continues to shape the industry with world-class footwear, blending tradition with innovation.
+                    The Marikina Shoe Festival is a tribute to the city&apos;s rich shoemaking heritage, showcasing the artistry and dedication of local craftsmen. As the Shoe Capital of the Philippines, Marikina continues to shape the industry with world-class footwear, blending tradition with innovation.
                 </p>
             </div>
 
@@ -70,7 +70,7 @@ export default function About() {
                         A LEGACY OF EXCELLENCE
                     </h1>
                     <p className="font-montserrat text-secondary text-md sm:text-xl leading-relaxed">
-                        The Marikina Shoe Festival honors the city's rich shoemaking legacy where tradition meets world-class craftsmanship, celebrating the artistry, passion, and resilience of local shoemakers who have shaped Marikina into the Shoe Capital of the Philippines.
+                        The Marikina Shoe Festival honors the city&apos;s rich shoemaking legacy where tradition meets world-class craftsmanship, celebrating the artistry, passion, and resilience of local shoemakers who have shaped Marikina into the Shoe Capital of the Philippines.
                     </p>
                     <button
                         onClick={() => scrollToSection("main-section")}

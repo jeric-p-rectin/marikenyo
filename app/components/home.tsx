@@ -70,8 +70,6 @@ export default function Home() {
                     EXPLORE THE FESTIVAL
                 </button>
             </div>
-
-
         </div>
     )
 }

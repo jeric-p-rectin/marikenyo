@@ -13,7 +13,8 @@ interface ShoeEventCardProps {
 export default function ShoeEventCard({ image, title, subtitle, reverse, showEventCardContent }: ShoeEventCardProps) {
     const isDesktop = useMediaQuery({ query: '(min-width: 640px)' });
     const [hasMounted, setHasMounted] = useState(false);
-    const [isHovered, setIsHovered] = useState(false);
+    // We use setIsHovered in event handlers but don't need the state itself
+    const [, setIsHovered] = useState(false);
 
     useEffect(() => {
         setHasMounted(true);
