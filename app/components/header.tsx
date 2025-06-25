@@ -69,7 +69,7 @@ export default function Header() {
                         height={35}
                         className="transition-all duration-500 group-hover:rotate-12 group-hover:scale-110"
                     />
-                    {"ARIKINA".split("").map((letter, index) => (
+                    {"ARIKENYO".split("").map((letter, index) => (
                         <h1
                             key={index}
                             className="font-montserrat text-secondary text-3xl hover:text-tertuary transition-all duration-300"
